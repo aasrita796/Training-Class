@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: #b38b62;
+}
+.fillform{
+    text-align: center;
+    width: fit-content;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #a3794e;
+    margin: auto;
+    padding: 50px;
+    background-color:#ddb38a;
+}

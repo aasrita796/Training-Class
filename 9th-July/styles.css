@@ -1,0 +1,47 @@
+.container{
+    /*margin: auto;*/
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation: transform 4s infinite; /*forwards*/
+    text-align: center;
+}
+@keyframes col{
+    from {background-color: blueviolet;}
+    to {background-color: brown;}
+}
+@keyframes bgcolor{
+    0%{background-color: blue;}
+    0%{background-color: green;}
+    0%{background-color: yellow;}
+    0%{background-color: black;}
+    0%{background-color: orange;}
+}
+@keyframes transform{
+    0%{transform: translate(100px);}
+    40%{transform: translate(200px);}
+    60%{transform: translate(400px);}
+    80%{transform: translate(600px);}
+    100%{transform: translate(800px);}   
+}
+
+.boxes{
+    background-color: red;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.box1{
+    background-color: rgb(43, 226, 180);
+}
+.box2{
+    background-color: rgb(226, 43, 180);
+}
+.box3{
+    background-color: blueviolet;
+}
+
+@media only screen and (orientation: landscape){
+    .box1{
+        background-color: rebeccapurple;
+    }
+}

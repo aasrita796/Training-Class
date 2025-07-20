@@ -1,0 +1,33 @@
+body{
+    background-image: url(kylie3.jpg);
+    background-size: cover; 
+    /* background-position: center; 
+     margin: auto;  */
+}
+.top-most{
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-most h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nav-links span{
+    cursor: pointer;
+    margin: 0 20px;
+}
+.logos{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    transform: translate(580px, -110px);
+
+}
+.new-drop{
+    margin: auto;
+    padding: auto;
+    color: white;
+}

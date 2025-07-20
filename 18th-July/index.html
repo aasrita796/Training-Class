@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            transform: translate(350px, 100px);
+            padding: 50px;
+        }
+
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p> hello </p>]hi
+    <p id="para"></p>
+    <p class="text">First Paragraph</p>
+    <p class="text">Second Paragraph</p>
+
+        <div class="box">hello</div>
+
+            <button onClick="document.querySelector('.box').style.backgroundColor='green'">Green</button>
+            <button onClick="document.querySelector('.box').style.backgroundColor='Orange'">Orange</button>
+            <button onClick="document.querySelector('.box').style.backgroundColor='red'">red</button>
+            <button onClick="document.querySelector('.box').style.backgroundColor='yellow'">yellow</button>
+
+    <h2>Registration form</h2>
+    <form onsubmit="validatePassword()">
+        <label for="password">password</label>
+        <input type="password" id="pass1" placeholder="enter your password"><br>
+        <label for="password">enter your password</label>
+        <input type="password" id="pass2" placeholder="re-enter your password"><br>
+        <button type="submit">submit</button>
+    </form>
+            
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: large;
+   text-decoration: underline;
+}
+body{
+    font-size: large;
+    text-align: center;
+}
+.site{
+    background-color: rgb(226, 226, 145);
+    margin: auto;
+    border:2px solid black;
+     border-radius: 20px;
+     line-height: 50px;
+     width: fit-content;
+}

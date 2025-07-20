@@ -1,0 +1,22 @@
+h1{
+    text-shadow: 2px 2px 2px red;
+}
+h2{
+    text-shadow: 2px 2px blue;
+}
+.container{
+    display: flex;
+    border: 20px solid black;
+    margin: 500px;
+    color: aliceblue;
+    /*transform: translate(100px, 200px);
+    transform: rotate(75deg);
+    transform: scale(0.5,0.7);
+    transform: skew(45deg); /*3-D*/
+    transition: transform 3s linear 1s;
+    /* background-color: blueviolet; */
+}
+.container:hover{
+    width: 500px;
+    transform: rotate(45deg);
+}
