@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkingStock(searcing, stock){
+            return new Promise((resolve, reject) => {
+                console.log(`Checking stock for ${searcing}...`);
+                setTimeout(() => {
+                    if (stock ==1){
+                        resolve(`Stock available for ${searcing}`);
+                    } else {
+                        reject(`Stock not available for ${searcing}`);
+                    }
+                }, 2000);
+            });
+        }
+
+        function verification(otp){
+            return new Promise((resolve, reject) => {
+                console.log(`Verifying OTP: ${otp}...`);
+                setTimeout(() => {
+                    if (otp == 1234){
+                        resolve("OTP verified successfully");
+                    } else {
+                        reject("OTP verification failed");
+                    }
+                }, 2000);
+            });
+        }
+        
+    </script>
+</body>
+</html>

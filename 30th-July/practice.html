@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input type="text" id="view" placeholder="Type something..."> -->
+    <script>
+//         let s=document.getElementById("view").addEventListener("keydown",()=>{
+//         console.log("key pressed!")
+//     })
+//     let ju=document.getElementById("view").addEventListener("keyup",()=>{
+//         console.log("key released");
+// })  
+//     let cl=document.getElementById("view").addEventListener("click",()=>{
+//         console.log(e.timeStamp);
+//     })
+
+        let icount=0;
+        let set = setInterval(() => {
+            console.log(icount);
+            icount++;
+        }, 1000);
+        clearInterval(set);
+
+        let count = 0;
+        let r = setTimeout(() => {
+            console.log(count);
+            count++;
+        }, 7000);
+        clearTimeout(r);
+
+    </script>
+</body>
+</html>
